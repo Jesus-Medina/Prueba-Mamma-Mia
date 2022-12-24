@@ -1,0 +1,50 @@
+.pizza-details-container {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+  align-items: center;
+  justify-content: center;
+}
+
+.pizza-image {
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.pizza-description {
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+  width: 50%;
+  text-align: start;
+}
+
+.pizza-ingredients ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.pizza-ingredients p {
+  font-weight: bold;
+}
+
+.price-and-cart {
+  display: flex;
+  justify-content: space-between;
+}
+
+.price-and-cart button {
+  border: none;
+  padding: .5rem 1rem;
+  color: white;
+  margin: .5rem;
+  border-radius: .2rem;
+  cursor: pointer;
+  background-color: #dc3545;
+}
+
+.price-and-cart button:hover {
+  background-color: #b92836;
+}

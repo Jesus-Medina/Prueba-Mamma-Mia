@@ -1,0 +1,75 @@
+.catalog-container {
+  width: 100%;
+  height: auto;
+  display: grid;
+  justify-items: center;
+  margin-top: 3rem;
+  row-gap: 2rem;
+}
+
+.grid-columns-4 {
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.catalog-container img {
+  width: 100%;
+  height: auto;
+}
+
+.catalog-container hr {
+  width: 90%;
+}
+
+.catalog-container .hr-2 {
+  width: 100%;
+}
+
+.pizza-card {
+  width: 80%;
+  padding-bottom: 2rem;
+  border: 1px solid gray;
+
+  -webkit-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.75);
+}
+
+.pizza-card ul {
+  list-style: none;
+  text-align: start;
+}
+
+.pizza-card ul li {
+  margin-top: .3rem;
+}
+
+.pizza-card button {
+  border: none;
+  padding: .5rem 1rem;
+  color: white;
+  margin: .5rem;
+  border-radius: .2rem;
+  cursor: pointer;
+}
+
+.pizza-card .btn-1 {
+  background-color: #0dcaf0;
+}
+
+.pizza-card .btn-1:hover {
+  background-color: #0eb2d3;
+}
+
+.pizza-card .btn-2 {
+  background-color: #dc3545;
+}
+
+.pizza-card .btn-2:hover {
+  background-color: #b92836;
+}
+
+.pizza-card .btn-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
